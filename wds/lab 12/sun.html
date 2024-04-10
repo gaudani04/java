@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	.sun{
+		height: 50px;
+		width: 50px;
+		background-color: orange;
+		margin-left: 360px;
+		border-radius: 50%;
+		margin: 0 auto;
+		position: absolute;
+		
+	}
+	.box1{
+		background-color: yellow;
+		height: 120px;
+		width: 220px;
+		margin-left: 380px;
+	}
+	.box2{
+
+	}
+	.pole1{
+		height: 400px;
+		width: 30px;
+		background-color: black;
+		margin-left: 360px;
+		margin-top: 300px;
+		float: left;
+	}
+	.pole2{
+		height: 400px;
+		width: 30px;
+		background-color: black;
+		margin-left: 480px;
+		margin-top: 300px;
+	}
+
+	.sun:hover{
+         animation-name: movement;
+         animation-duration: 15s;
+	}
+	@keyframes movement{
+         0%{
+         	top:0;
+         }
+         100%{
+         	top:1000px;
+         }
+	}
+	@keyframes move{
+		 0%{
+         	top:0;
+         }
+         100%{
+         	top:1000px;
+         }
+
+	}
+	.sun:active{
+		animation-name: move,movement; 
+		animation-duration: 15s;
+		border-radius: 0;
+	}
+</style>
+<body>
+	<div class="box1">
+<div class="sun"></div>
+</div>
+<div class="pole1"></div>
+<div class="pole2"></div>
+<div class=box2></div>
+</body>
+</html>

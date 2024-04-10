@@ -1,0 +1,19 @@
+#logo{
+	float: left;
+}
+#link{
+	float:right;
+}
+a{
+	text-decoration:none;
+	padding-right: 10px;
+}
+.box{
+	border:2px solid red;
+	margin-right: 50px;
+	margin-left: 40px;
+	height: 220px;
+	width: 350px;
+	float: left;
+	text-align: center;
+}
